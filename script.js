@@ -31,6 +31,7 @@ function game() {
     let playerScore = 0;
     let computerScore = 0;
 
+    alert("Open console for seeing the scores");
     for (let i = 1; i <= 5; i++) {
         let playerSelection = prompt("Rock, Paper, Scissors?").toLowerCase();
         let computerSelection = computerPlay();
