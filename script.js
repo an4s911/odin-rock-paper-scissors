@@ -14,16 +14,13 @@ function playRound(playerSelection, computerSelection = computerPlay()) {
     if (playerSelection === winningSelection) {
         // Player wins
         return true;
-        return `You win! ${playerSelection} beats ${computerSelection}`;
     } else if (computerSelection === winningSelection) {
         // Computer wins
         return false;
-        return `You lose! ${computerSelection} beats ${playerSelection}`;
     } else {
         // Tie
         // returns null
         return winningSelection;
-        return "Tie";
     }
 }
 
